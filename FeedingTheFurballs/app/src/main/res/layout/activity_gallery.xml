@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context=".Gallery">
+
+    <TextView
+        android:id="@+id/gallery_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/gallery"
+        android:textColor="@color/dark_purple"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <View
+        android:id="@+id/horizontal_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gallery_txt"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/horizontal_line"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/gallery1"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/gallery2"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery3"
+                app:layout_constraintStart_toEndOf="@id/gallery1"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/gallery3"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery4"
+                app:layout_constraintStart_toEndOf="@id/gallery2"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/gallery4"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/gallery3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <ImageView
+                android:id="@+id/gallery5"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery6"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gallery1" />
+
+            <ImageView
+                android:id="@+id/gallery6"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery7"
+                app:layout_constraintStart_toEndOf="@id/gallery5"
+                app:layout_constraintTop_toBottomOf="@id/gallery2" />
+
+            <ImageView
+                android:id="@+id/gallery7"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery8"
+                app:layout_constraintStart_toEndOf="@id/gallery6"
+                app:layout_constraintTop_toBottomOf="@id/gallery3" />
+
+            <ImageView
+                android:id="@+id/gallery8"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/gallery7"
+                app:layout_constraintTop_toBottomOf="@id/gallery4" />
+
+            <ImageView
+                android:id="@+id/gallery9"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery10"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gallery5" />
+
+            <ImageView
+                android:id="@+id/gallery10"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery11"
+                app:layout_constraintStart_toEndOf="@id/gallery9"
+                app:layout_constraintTop_toBottomOf="@id/gallery6" />
+
+            <ImageView
+                android:id="@+id/gallery11"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery12"
+                app:layout_constraintStart_toEndOf="@id/gallery10"
+                app:layout_constraintTop_toBottomOf="@id/gallery7" />
+
+            <ImageView
+                android:id="@+id/gallery12"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/gallery11"
+                app:layout_constraintTop_toBottomOf="@id/gallery8" />
+
+            <ImageView
+                android:id="@+id/gallery13"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery14"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gallery9" />
+
+            <ImageView
+                android:id="@+id/gallery14"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery15"
+                app:layout_constraintStart_toEndOf="@id/gallery13"
+                app:layout_constraintTop_toBottomOf="@id/gallery10" />
+
+            <ImageView
+                android:id="@+id/gallery15"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery16"
+                app:layout_constraintStart_toEndOf="@id/gallery14"
+                app:layout_constraintTop_toBottomOf="@id/gallery11" />
+
+            <ImageView
+                android:id="@+id/gallery16"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/gallery15"
+                app:layout_constraintTop_toBottomOf="@id/gallery12" />
+
+            <ImageView
+                android:id="@+id/gallery17"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery18"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gallery13" />
+
+            <ImageView
+                android:id="@+id/gallery18"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery19"
+                app:layout_constraintStart_toEndOf="@id/gallery17"
+                app:layout_constraintTop_toBottomOf="@id/gallery14" />
+
+            <ImageView
+                android:id="@+id/gallery19"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery20"
+                app:layout_constraintStart_toEndOf="@id/gallery18"
+                app:layout_constraintTop_toBottomOf="@id/gallery15" />
+
+            <ImageView
+                android:id="@+id/gallery20"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/gallery19"
+                app:layout_constraintTop_toBottomOf="@id/gallery16" />
+
+            <ImageView
+                android:id="@+id/gallery21"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery22"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gallery17" />
+
+            <ImageView
+                android:id="@+id/gallery22"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery23"
+                app:layout_constraintStart_toEndOf="@id/gallery21"
+                app:layout_constraintTop_toBottomOf="@id/gallery18" />
+
+            <ImageView
+                android:id="@+id/gallery23"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery24"
+                app:layout_constraintStart_toEndOf="@id/gallery22"
+                app:layout_constraintTop_toBottomOf="@id/gallery19" />
+
+            <ImageView
+                android:id="@+id/gallery24"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/gallery23"
+                app:layout_constraintTop_toBottomOf="@id/gallery20" />
+
+            <ImageView
+                android:id="@+id/gallery25"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery26"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gallery21" />
+
+            <ImageView
+                android:id="@+id/gallery26"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery27"
+                app:layout_constraintStart_toEndOf="@id/gallery25"
+                app:layout_constraintTop_toBottomOf="@id/gallery22" />
+
+            <ImageView
+                android:id="@+id/gallery27"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery28"
+                app:layout_constraintStart_toEndOf="@id/gallery26"
+                app:layout_constraintTop_toBottomOf="@id/gallery23" />
+
+            <ImageView
+                android:id="@+id/gallery28"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/gallery27"
+                app:layout_constraintTop_toBottomOf="@id/gallery24" />
+
+            <ImageView
+                android:id="@+id/gallery29"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery30"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/gallery25" />
+
+            <ImageView
+                android:id="@+id/gallery30"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery31"
+                app:layout_constraintStart_toEndOf="@id/gallery29"
+                app:layout_constraintTop_toBottomOf="@id/gallery26" />
+
+            <ImageView
+                android:id="@+id/gallery31"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toStartOf="@id/gallery32"
+                app:layout_constraintStart_toEndOf="@id/gallery30"
+                app:layout_constraintTop_toBottomOf="@id/gallery27" />
+
+            <ImageView
+                android:id="@+id/gallery32"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintDimensionRatio="1:1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/gallery31"
+                app:layout_constraintTop_toBottomOf="@id/gallery28" />
+
+            <ImageView
+                android:id="@+id/gallery33"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery29"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/gallery34"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery34"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery29"
+                app:layout_constraintStart_toEndOf="@id/gallery33"
+                app:layout_constraintEnd_toStartOf="@id/gallery35"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery35"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery29"
+                app:layout_constraintStart_toEndOf="@id/gallery34"
+                app:layout_constraintEnd_toStartOf="@id/gallery36"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery36"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery29"
+                app:layout_constraintStart_toEndOf="@id/gallery35"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery37"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery33"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/gallery38"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery38"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery33"
+                app:layout_constraintStart_toEndOf="@id/gallery37"
+                app:layout_constraintEnd_toStartOf="@id/gallery39"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery39"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery33"
+                app:layout_constraintStart_toEndOf="@id/gallery38"
+                app:layout_constraintEnd_toStartOf="@id/gallery40"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery40"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery33"
+                app:layout_constraintStart_toEndOf="@id/gallery39"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery41"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery37"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/gallery42"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery42"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery37"
+                app:layout_constraintStart_toEndOf="@id/gallery41"
+                app:layout_constraintEnd_toStartOf="@id/gallery43"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery43"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery37"
+                app:layout_constraintStart_toEndOf="@id/gallery42"
+                app:layout_constraintEnd_toStartOf="@id/gallery44"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery44"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery37"
+                app:layout_constraintStart_toEndOf="@id/gallery43"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery45"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery41"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/gallery46"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery46"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery41"
+                app:layout_constraintStart_toEndOf="@id/gallery45"
+                app:layout_constraintEnd_toStartOf="@id/gallery47"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery47"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery41"
+                app:layout_constraintStart_toEndOf="@id/gallery46"
+                app:layout_constraintEnd_toStartOf="@id/gallery48"
+                app:layout_constraintDimensionRatio="1:1" />
+
+            <ImageView
+                android:id="@+id/gallery48"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:src="@drawable/placeholder"
+                app:layout_constraintTop_toBottomOf="@id/gallery41"
+                app:layout_constraintStart_toEndOf="@id/gallery47"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintDimensionRatio="1:1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

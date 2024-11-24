@@ -1,0 +1,159 @@
+<resources>
+    <string name="app_name">Feeding The Furballs</string>
+    <string name="manage_item_donations">Manage Item Donations</string>
+    <string name="manage_gallery">Manage Gallery</string>
+    <string name="manage_monthly_goal">Manage Monthly Goal</string>
+    <string name="admin_dashboard">Admin Dashboard</string>
+    <string name="manage_donation_goal">Manage Donation Goal</string>
+    <string name="total_monthly_donations">Total Monthly Donations</string>
+    <string name="total_monthly_goal">Total Monthly Goal</string>
+    <string name="save">Save</string>
+    <string name="please_select_a_month">Please Select a month.</string>
+    <string name="manage_gallery2">Manage Gallery</string>
+    <string name="add_image">Add Image</string>
+    <string name="delete_image">Delete Image</string>
+    <string name="manage_item_donations2">Manage Item Donations</string>
+    <string name="item">Item</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="email_address">Email Address</string>
+    <string name="delete_item_donation">Delete Item Donation</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="please_enter_your_admin_credentials">Please Enter Your Admin Credentials!</string>
+    <string name="email_address2">Email Address</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="farrah_maharajh">Farrah Maharajh</string>
+    <string name="farrah_feedingthefurballs_org">farrah@feedingthefurballs.org</string>
+    <string name="techforgoodgroup_gmail_com">techforgoodgroup@gmail.com</string>
+    <string name="app_admin">App Admin</string>
+    <string name="human_in_charge">Human In Charge</string>
+    <string name="_27_83_793_6897">+27 83 793 6897</string>
+    <string name="address">Address</string>
+    <string name="_26_parthab_road_avoca_durban_north_4051">26 Parthab Road, Avoca, Durban North, 4051</string>
+    <string name="donation_goal">Donation Goal</string>
+    <string name="gallery">Gallery</string>
+    <string name="how_you_can_help">How You Can Help</string>
+    <string name="monetary_donations">Monetary Donations</string>
+    <string name="item_donations">Item Donations</string>
+    <string name="please_use_your_email_address_or_contact_number_as_the_reference_so_we_can_contact_you_to_issue_receipts">Please use your email address or contact number as the reference so we can contact you to issue receipts.</string>
+    <string name="if_you_d_like_to_donate_an_item_please_fill_out_the_item_donations_form_farrah_will_arrange_collection_or_drop_off_your_information_will_remain_confidential">If you\'d like to donate an item, please fill out the \'Item Donations\' form. Farrah will arrange collection or drop-off. Your information will remain confidential.</string>
+    <string name="item_donations2">Item Donations</string>
+    <string name="general_items_needed">General Items Needed</string>
+    <string name="other_items_needed">Other Items Needed</string>
+    <string name="your_details">Your Details</string>
+    <string name="name_and_surname">Name and Surname</string>
+    <string name="your_selected_item">Your Selected Item</string>
+    <string name="contact_number2">Contact Number</string>
+    <string name="email_address3">Email Address</string>
+    <string name="send_request">Send Request</string>
+    <string name="welcome_to_feeding_the_furballs">Welcome To Feeding The Furballs</string>
+    <string name="feeding_the_furballs_is_both_a_registered_public_beneficiary_and_a_non_profit_organisation_that_is_striving_to_provide_rescue_animals_and_rescue_organisations_with_food_and_supplies">Feeding the Furballs is both a registered public beneficiary and a non-profit organisation that is striving to provide rescue animals and rescue organisations with food and supplies.</string>
+    <string name="our_mission">Our Mission</string>
+    <string name="our_mission_is_to_better_the_world_through_kindness_to_animals_by_assisting_rescuers_with_food_and_supplies_allowing_them_to_focus_on_their_rescue_work_we_aim_to_inspire_others_to_adopt_rather_than_shop_network_animals_in_need_of_forever_homes_and_encourage_everyone_to_help_furballs_in_need">Our mission is to better the world through kindness to animals by assisting rescuers with food and supplies, allowing them to focus on their rescue work. We aim to inspire others to adopt rather than shop, network animals in need of forever homes, and encourage everyone to help furballs in need.</string>
+    <string name="monetary_donations2">Monetary Donations</string>
+    <string name="bank_eft">Bank EFT</string>
+    <string name="feeding_the_furballs">Feeding The Furballs</string>
+    <string name="first_national_bank">First National Bank</string>
+    <string name="acc_no_62485795622">Acc No: 62485795622</string>
+    <string name="branch_code_250655">Branch Code: 250655</string>
+    <string name="all_cash_donations_will_be_used_to_purchase_items_in_bulk_at_a_discounted_rate">All cash donations will be used to purchase items in bulk at a discounted rate.</string>
+    <string name="debit_order_form">Debit Order Form</string>
+    <string name="paypal">PayPal</string>
+    <string name="zapper">Zapper</string>
+    <string name="feeding_the_furballs_2016_pbo_930048463_and_npo_134_861">© Feeding the Furballs 2016 PBO 930048463 and NPO 134–861</string>
+    <string name="please_select_a_user">Please select a user.</string>
+    <string name="please_select_a_month2">Please select a month.</string>
+    <string name="our_suppawters">Our Suppawters</string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="disclaimer2">Disclaimer</string>
+    <string name="the_feeding_the_furballs_app_was_developed_by_techforgood_exclusively_for_feeding_the_furballs_its_purpose_is_to_support_the_ngo_in_managing_donations_fostering_community_engagement_and_sharing_information_about_their_mission_to_help_homeless_animals_in_south_africa">The Feeding the Furballs app was developed by TechForGood exclusively for Feeding the Furballs. Its purpose is to support the NGO in managing donations, fostering community engagement, and sharing information about their mission to help homeless animals in South Africa.</string>
+    <string name="intellectual_property_ownership">Intellectual Property Ownership</string>
+    <string name="the_app_s_features_including_but_not_limited_to_the_donation_goals_tracker_gallery_admin_controls_and_all_user_interactions_are_proprietary_to_techforgood_and_feeding_the_furballs_and_are_uniquely_designed_to_meet_the_organization_s_needs_any_duplication_or_unauthorized_use_of_these_features_is_strictly_prohibited">The app’s features, including but not limited to the Donation Goals Tracker, Gallery, Admin Controls, and all user interactions, are proprietary to TechForGood and Feeding the Furballs and are uniquely designed to meet the organization’s needs. Any duplication or unauthorized use of these features is strictly prohibited.</string>
+    <string name="data_privacy">Data Privacy</string>
+    <string name="user_data_collected_within_this_app_is_handled_with_confidentiality_in_compliance_with_the_protection_of_personal_information_act_popia_users_are_responsible_for_the_accuracy_of_information_they_provide">User data collected within this app is handled with confidentiality, in compliance with the Protection of Personal Information Act (POPIA). Users are responsible for the accuracy of information they provide.</string>
+    <string name="user_conduct">User Conduct</string>
+    <string name="users_agree_to_use_the_app_responsibly_and_not_to_misuse_its_features_or_attempt_unauthorized_access_to_restricted_areas_misuse_may_result_in_access_restrictions">Users agree to use the app responsibly and not to misuse its features or attempt unauthorized access to restricted areas. Misuse may result in access restrictions.</string>
+    <string name="modification_rights">Modification Rights</string>
+    <string name="techforgood_reserves_the_right_to_modify_or_update_features_terms_or_content_within_the_app_as_necessary_to_maintain_quality_and_functionality">TechForGood reserves the right to modify or update features, terms, or content within the app as necessary to maintain quality and functionality.</string>
+    <string name="limitation_of_liability">Limitation of Liability</string>
+    <string name="while_designed_for_accuracy_and_reliability_techforgood_and_feeding_the_furballs_are_not_liable_for_temporary_outages_data_inaccuracies_or_any_loss_of_functionality_by_using_this_app_you_agree_to_respect_its_intellectual_property_and_terms_of_use">While designed for accuracy and reliability, TechForGood and Feeding the Furballs are not liable for temporary outages, data inaccuracies, or any loss of functionality. By using this app, you agree to respect its intellectual property and terms of use.</string>
+    <string name="go_to_popi_act">Go to POPI Act</string>
+
+    <string-array name="navigation_spinner">
+        <item>Home</item>
+        <item>How Can You Help?</item>
+        <item>Our Suppawters</item>
+        <item>Gallery</item>
+        <item>Donation Goal</item>
+        <item>Contact Us</item>
+        <item>Disclaimer</item>
+        <item>Admin Login</item>
+    </string-array>
+
+    <string-array name="general_items">
+        <item>Please Select an Item</item>
+        <item>15kg Washing Powder</item>
+        <item>100 Tins of Catfood</item>
+        <item>56kgs Vet Branded Catfood</item>
+        <item>25kgs Vet Branded Dogfood</item>
+        <item>4 x 3.6kg Crystal Cat Litter</item>
+        <item>8 Bottles of Jeyes Fluid</item>
+        <item>2 x 5l Pine Gel Cleaner</item>
+        <item>4 x Spray Surface Cleaner</item>
+        <item>48 Rolls of Toilet Paper</item>
+        <item>84 Rolls Bluff Pet Mince</item>
+        <item>28 Tubs Chicken Liver</item>
+    </string-array>
+
+    <string-array name="other_items">
+        <item>Please Select an Item</item>
+        <item>Dry cat food (Whiskas, Friskies)</item>
+        <item>Wet cat food (Pampers)</item>
+        <item>Dry dog food</item>
+        <item>Wet dog food (husky chunks)</item>
+        <item>Russel Rabbit food</item>
+        <item>Marltons rabbit food</item>
+        <item>Hay</item>
+        <item>Rescue Remedy</item>
+        <item>Dishwashing liquid</item>
+        <item>Floor cleaner</item>
+        <item>Bleach</item>
+        <item>Handy Andy</item>
+        <item>Top loader washing powder</item>
+        <item>Cat litter</item>
+        <item>Rice</item>
+        <item>Rice - brown</item>
+        <item>Chicken livers/hearts/pieces</item>
+        <item>Bin bags</item>
+        <item>Bowls</item>
+        <item>Detol</item>
+        <item>Glucose powder</item>
+        <item>S26</item>
+        <item>Cerelac rice cereal</item>
+        <item>Raisins</item>
+        <item>Puffed wheat cereal</item>
+        <item>Unpopped popcorn</item>
+        <item>Peanut butter</item>
+        <item>Apricot jam</item>
+        <item>Honey</item>
+        <item>Samp and beans</item>
+        <item>Teddy vites</item>
+    </string-array>
+
+    <string-array name="month_spinner">
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+
+</resources>

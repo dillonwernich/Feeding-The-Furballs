@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Admin_Gallery">
+
+    <View
+        android:id="@+id/rounded_rectangle_view"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:background="@drawable/rectangle"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/horizontal_line"
+        app:layout_constraintVertical_bias="0.05" />
+
+    <TextView
+        android:id="@+id/manage_gallery_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/manage_gallery2"
+        android:textColor="@color/dark_purple"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <View
+        android:id="@+id/horizontal_line"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/manage_gallery_txt"
+        app:layout_constraintVertical_bias="0.02" />
+
+    <ImageView
+        android:id="@+id/admin_display_imageView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:src="@drawable/placeholder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/rounded_rectangle_view"
+        app:layout_constraintStart_toStartOf="@+id/rounded_rectangle_view"
+        app:layout_constraintTop_toTopOf="@+id/rounded_rectangle_view"
+        app:layout_constraintVertical_bias="0.036"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <Spinner
+        android:id="@+id/image_name_spinner"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:popupBackground="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/rounded_rectangle_view"
+        app:layout_constraintStart_toStartOf="@+id/rounded_rectangle_view"
+        app:layout_constraintTop_toBottomOf="@+id/admin_display_imageView"
+        app:layout_constraintVertical_bias="0.017"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <Button
+        android:id="@+id/add_image_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/add_image"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/rounded_rectangle_view"
+        app:layout_constraintStart_toStartOf="@+id/rounded_rectangle_view"
+        app:layout_constraintTop_toBottomOf="@+id/image_name_spinner"
+        app:layout_constraintVertical_bias="0.038" />
+
+    <Button
+        android:id="@+id/delete_image_button"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="@string/delete_image"
+        app:layout_constraintBottom_toBottomOf="@+id/rounded_rectangle_view"
+        app:layout_constraintEnd_toEndOf="@+id/rounded_rectangle_view"
+        app:layout_constraintStart_toStartOf="@+id/rounded_rectangle_view"
+        app:layout_constraintTop_toBottomOf="@+id/add_image_button"
+        app:layout_constraintVertical_bias="0.382" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:importantForAccessibility="no"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rounded_rectangle_view"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/multidogs" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

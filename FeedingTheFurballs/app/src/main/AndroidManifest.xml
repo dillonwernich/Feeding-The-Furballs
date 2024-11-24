@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- For Android 13+ (API level 33 and above) -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" /> <!-- For devices below Android 13 -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" /> <!-- Optional: WRITE_EXTERNAL_STORAGE for devices below Android 10 -->
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/ftflogo2"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ftflogo2"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FeedingTheFurballs"
+        tools:targetApi="31">
+        <activity
+            android:name=".Disclaimer"
+            android:exported="false" />
+        <activity
+            android:name=".Donation_Goal"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Donation_Goal"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Item_Donations"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Gallery"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Dashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Login"
+            android:exported="false" />
+        <activity
+            android:name=".Contact_Us"
+            android:exported="false" />
+        <activity
+            android:name=".Gallery"
+            android:exported="false" />
+        <activity
+            android:name=".Our_Suppawters"
+            android:exported="false" />
+        <activity
+            android:name=".Monetary_Donations"
+            android:exported="false" />
+        <activity
+            android:name=".Item_Donations"
+            android:exported="false" />
+        <activity
+            android:name=".How_Can_You_Help"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

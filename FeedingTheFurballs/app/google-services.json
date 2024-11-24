@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "63584116304",
+    "firebase_url": "https://feedingthefurballs---app-default-rtdb.firebaseio.com",
+    "project_id": "feedingthefurballs---app",
+    "storage_bucket": "feedingthefurballs---app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63584116304:android:e4774884827486edb23b55",
+        "android_client_info": {
+          "package_name": "com.dillonwernich.feedingthefurballs"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCH9Baz0PaRZAV3JfVDTd-B67O1HGCLlG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
